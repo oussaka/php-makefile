@@ -1,0 +1,20 @@
+{
+    "name": "oussaka/php-makefile",
+    "description": "Makefile recipes for PHP",
+    "type": "library",
+    "keywords": [
+        "build",
+        "build-tool",
+        "make",
+        "makefile",
+        "tool"
+    ],
+    "homepage": "https://github.com/oussaka/php-makefile",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oussaka",
+            "email": "oussaka@gmail.com"
+        }
+    ]
+}
