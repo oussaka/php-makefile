@@ -5,8 +5,8 @@ ifeq ("$(wildcard $(PHPUNIT))","")
 endif
 
 ##
-## Makefile phpunit
-## -------------
+## phpunit
+##---------------------------------------------------------------------------
 ##
 
 ifdef PHPUNIT_CONFIG_FILE

@@ -1,7 +1,7 @@
 
 ##
-## Makefile lint
-## -------------
+## lint
+##---------------------------------------------------------------------------
 ##
 
 lint: ls ly lt lj phpcs                                                         ## Run lint on Twig, YAML, PHP and Javascript files

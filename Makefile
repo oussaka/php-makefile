@@ -14,6 +14,9 @@ mkfile_path = $(abspath $(lastword $(MAKEFILE_LIST)))
 mkfile_dir = $(dir $(mkfile_path))
 RECIPESDIR = $(mkfile_dir)/makefiles
 
+DOCKER_COMPOSE?=docker-compose
+RUN=$(DOCKER_COMPOSE) run --rm app
+
 EXEC?= # $(DOCKER_COMPOSE) exec app entrypoint.sh
 COMPOSER=$(EXEC) composer
 CONSOLE=$(EXEC) bin/console
