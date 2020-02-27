@@ -70,4 +70,4 @@ down:
 
 endif
 
-.PHONY: root_ex app ex logs up stop down
+.PHONY: root_ex app ex logs up stop down docker-dev.lock
